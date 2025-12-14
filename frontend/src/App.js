@@ -1,13 +1,14 @@
 import React from "react";
 import SearchManga from "./SearchManga";
 import MyList from "./MyList";
+import "./App.css";
 
 function App() {
   return (
-    <div style={{ maxWidth: 900, margin: "24px auto", padding: 12 }}>
+    <div className="app-container">
       <h1>Aplikasi Manga Sederhana — (Rio Afido)</h1>
       <SearchManga />
-      <hr style={{ margin: "20px 0" }} />
+      <hr className="divider" />
       <MyList />
     </div>
   );
